@@ -2,7 +2,7 @@
 This project analyzes credit card spending habits in India using a dataset from [Kaggle](https://www.kaggle.com/datasets/thedevastator/analyzing-credit-card-spending-habits-in-india).
 ### Prerequisites
 
-- SQL server management studio
+- Download and Install SQL Server Management Studio (SSMS) from  [official SSMS download page](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms).
 ## Dataset
 
 The dataset is available in the `data` folder and is provided as an Excel file:
@@ -57,6 +57,14 @@ The dataset is available in the `data` folder and is provided as an Excel file:
 
 10. **Check Imported Data**
     - Verify that the data has been imported correctly by querying the target table in SQL Server.
+## SQL Queries
+
+The SQL queries used to analyze the dataset are available in the `sql_queries` folder. The file `sql_credit_card_transaction_queries.sql` contains the solved queries for various analyses.
+
+### Queries Included
+
+- **`sql_credit_card_transaction_queries.sql`**: Contains solved SQL queries for analyzing the credit card transactions dataset.
+  
 ### Running the Queries
 
 1. **Open SQL Server Management Studio (SSMS)**
